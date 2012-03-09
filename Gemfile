@@ -10,6 +10,7 @@ group :development, :test do
   gem 'sqlite3'
   gem 'ruby-debug19', :require => 'ruby-debug'
 end
+# use PostgreSQL (pg) in production (on Heroku)
 group :production do
   gem 'pg'
 end
